@@ -8,12 +8,15 @@
 
 [ZML166](https://github.com/SoCXin/ZML166) 通过SIP封装集成5通道 24bit ADC
 
-### 核心功能
+[![sites](docs/ZML166.png)](https://www.zlgmcu.com/zlgiotmcu/zlgiotmcu/product/id/27.html)
+
+#### 核心功能
 
 * 24 bit Σ-∆ ADC
 * USB
 
 ### [选型建议](https://github.com/SoCXin)
 
+[ZML166](https://github.com/SoCXin/ZML166) 和[ZML165](https://github.com/SoCXin/ZML165)相比，拥有全面的功能
 
 ###  [SoC芯平台](http://www.SoC.Xin)
