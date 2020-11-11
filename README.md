@@ -10,13 +10,19 @@
 
 [![sites](docs/ZML166.png)](https://www.zlgmcu.com/zlgiotmcu/zlgiotmcu/product/id/27.html)
 
-#### 核心功能
+##### 核心功能
 
 * 24 bit Σ-∆ ADC
 * USB
 
+### [资源收录](https://github.com/SoCXin/ZLG217)
+
+* [资源](src/)
+* [文档](docs/)
+* [官方开源工程](https://github.com/zlgopen/ametal)
+
 ### [选型建议](https://github.com/SoCXin)
 
-[ZML166](https://github.com/SoCXin/ZML166) 和[ZML165](https://github.com/SoCXin/ZML165)相比，拥有全面的功能
+[ZML166](https://github.com/SoCXin/ZML166) 和[ZML165](https://github.com/SoCXin/ZML165)相比拥有全面的功能，适合大件
 
 ###  [SoC芯平台](http://www.SoC.Xin)
