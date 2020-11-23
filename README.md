@@ -6,15 +6,17 @@
 #### [Core](https://github.com/SoCXin/Cortex)：[Cortex M0](https://github.com/SoCXin/CM0)
 #### [Level](https://github.com/SoCXin/Level)：48 MHz  * 0.95 DMIPS/MHz
 
-[ZML166](https://github.com/SoCXin/ZML166) 通过SIP封装集成5通道 24bit ADC
+[ZML166](https://github.com/SoCXin/ZML166) 单芯片集成24位Σ-Δ型模数转换器和32位ARM Cortex-M0处理器，同时内部有模拟信号调理电路，可实现ADC输入端多路复用，信号程控增益，信号电平移位等功能，并且内置一个LDO和一个高精度的基准电压。除模拟信号调理电路之外，芯片内部还有多个定时器和多样的标准数字接口，包括2个UART接口，1个I²C接口，1个SPI接口和1个USB接口。
+
+ADC输入端增益可编程1~128倍，20位以上有效精度，支持宽动态范围输入信号
 
 [![sites](docs/ZML166.png)](https://www.zlgmcu.com/zlgiotmcu/zlgiotmcu/product/id/27.html)
 
-##### 核心功能
+##### 关键特性
 
 * 24 bit Σ-∆ ADC
 * USB
-
+* QFN32封装 (5mm*5mm*0.75mm)
 ### [资源收录](https://github.com/SoCXin/ZLG217)
 
 * [资源](src/)
