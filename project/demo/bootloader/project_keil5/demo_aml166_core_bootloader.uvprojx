@@ -381,6 +381,71 @@
       </TargetOption>
       <Groups>
         <Group>
+          <GroupName>user_code</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user_code\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>bootloader</GroupName>
+          <Files>
+            <File>
+              <FileName>am_arm_boot.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\arch\arm\am_arm_boot.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_enter_check_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_enter_check_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_enter_check_uart_cmd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_uart_cmd.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_firmware_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_firmware_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_firmware_recv_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_firmware_recv_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_mem_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_mem_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_msg_flag.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_msg_flag.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_serial_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_serial_uart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>bsp_common</GroupName>
           <Files>
             <File>
@@ -1756,16 +1821,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>user_code</GroupName>
-          <Files>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\user_code\main.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>user_config</GroupName>
           <Files>
             <File>
@@ -2082,61 +2137,6 @@
               <FileName>am_bootconf_aml166_single.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\user_config\am_bootconf_usrcfg\am_bootconf_aml166_single.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>bootloader</GroupName>
-          <Files>
-            <File>
-              <FileName>am_arm_boot.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\arch\arm\am_arm_boot.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_enter_check_key.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_key.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_enter_check_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_enter_check_uart_cmd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_uart_cmd.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_firmware_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_firmware_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_firmware_recv_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_firmware_recv_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_mem_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_mem_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_msg_flag.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_msg_flag.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_serial_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_serial_uart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2517,6 +2517,71 @@
       </TargetOption>
       <Groups>
         <Group>
+          <GroupName>user_code</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user_code\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>bootloader</GroupName>
+          <Files>
+            <File>
+              <FileName>am_arm_boot.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\arch\arm\am_arm_boot.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_enter_check_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_enter_check_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_enter_check_uart_cmd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_uart_cmd.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_firmware_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_firmware_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_firmware_recv_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_firmware_recv_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_mem_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_mem_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_msg_flag.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_msg_flag.c</FilePath>
+            </File>
+            <File>
+              <FileName>am_boot_serial_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_serial_uart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>bsp_common</GroupName>
           <Files>
             <File>
@@ -3892,16 +3957,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>user_code</GroupName>
-          <Files>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\user_code\main.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>user_config</GroupName>
           <Files>
             <File>
@@ -4218,61 +4273,6 @@
               <FileName>am_bootconf_aml166_single.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\user_config\am_bootconf_usrcfg\am_bootconf_aml166_single.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>bootloader</GroupName>
-          <Files>
-            <File>
-              <FileName>am_arm_boot.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\arch\arm\am_arm_boot.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_enter_check_key.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_key.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_enter_check_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_enter_check_uart_cmd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_enter_check_uart_cmd.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_firmware_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_firmware_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_firmware_recv_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_firmware_recv_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_mem_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_mem_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_msg_flag.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_msg_flag.c</FilePath>
-            </File>
-            <File>
-              <FileName>am_boot_serial_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\components\bootloader\source\drivers\am_boot_serial_uart.c</FilePath>
             </File>
           </Files>
         </Group>

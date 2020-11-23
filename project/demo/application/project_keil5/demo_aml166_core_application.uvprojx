@@ -10,7 +10,7 @@
       <TargetName>debug</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060061::V5.06 update 1 (build 61)::ARMCC</pCCUsed>
+      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -380,6 +380,16 @@
         </TargetArmAds>
       </TargetOption>
       <Groups>
+        <Group>
+          <GroupName>user_code</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user_code\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
         <Group>
           <GroupName>bsp_common</GroupName>
           <Files>
@@ -1742,16 +1752,6 @@
               <FileName>am_aml166_armcc_startup.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\startup\am_aml166_armcc_startup.s</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>user_code</GroupName>
-          <Files>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\user_code\main.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2442,6 +2442,16 @@
       </TargetOption>
       <Groups>
         <Group>
+          <GroupName>user_code</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user_code\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>bsp_common</GroupName>
           <Files>
             <File>
@@ -3803,16 +3813,6 @@
               <FileName>am_aml166_armcc_startup.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\startup\am_aml166_armcc_startup.s</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>user_code</GroupName>
-          <Files>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\user_code\main.c</FilePath>
             </File>
           </Files>
         </Group>
